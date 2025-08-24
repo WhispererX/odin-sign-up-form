@@ -10,11 +10,70 @@
     <div class="sidebar">
       <div class="logo-container">
         <div class="logo">
-            <img class="logo-img" src="./assets/img/odin-logo.png" alt="Odin Logo" width="60" />
-            <h1 class="logo-title">ODIN</h1>
+          <img
+            class="logo-img"
+            src="./assets/img/odin-logo.png"
+            alt="Odin Logo"
+            width="60" />
+          <h1 class="logo-title">ODIN</h1>
         </div>
       </div>
-      <p class="credits">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a></p>
+      <p class="credits">
+        Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a>
+      </p>
     </div>
+    <main>
+      <div class="top-part">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p>You know you want to.</p>
+      </div>
+
+      <form action="#" method="post">
+        <legend>Let's do this!</legend>
+
+        <div class="input-row">
+          <label for="first-name">
+            First name
+            <input type="text" id="first-name" name="first-name" minlength="3" />
+          </label>
+
+          <label for="last-name">
+            Last name
+            <input type="text" id="last-name" name="last-name" minlength="3" />
+          </label>
+        </div>
+
+        <div class="input-row">
+          <label for="email">
+            Email
+            <input type="email" id="email" name="email" />
+          </label>
+
+          <label for="phone">
+            Phone number
+            <input type="tel" id="phone" name="phone" />
+          </label>
+        </div>
+
+        <div class="input-row">
+          <label for="password">
+            Password
+            <input type="password" name="password" id="password" minlength="6" />
+          </label>
+
+          <label for="confirm">
+            Confirm Password 
+            <input type="password" name="confirm" id="confirm" minlength="6">
+          </label>
+        </div>
+      </form>
+
+      <button>Create Account</button>
+      <p class="login">Already have an account? <a href="#">Log in</a></p>
+    </main>
   </body>
 </html>
