@@ -142,6 +142,7 @@ button {
   margin: 1rem var(--offset);
   font-weight: 600;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .login {
