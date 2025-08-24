@@ -10,4 +10,53 @@
   --accent-color: #596d48;
   --border-color: #e5e7eb;
   --outline-color: cornflowerblue;
+
+  --top-part: 200px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100vh;
+  background: url('/assets/img/background.jpg') no-repeat;
+  background-size: cover;
+}
+
+.logo-container {
+  display: flex;
+  align-items: flex-end;
+  height: var(--top-part);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+}
+
+.logo-title {
+  color: white;
+  font-family: typewriter;
+}
+
+.credits {
+  color: white;
+  font-size: .9rem;
+  text-align: center;
+}
+
+.credits a {
+  color: inherit;
 }
