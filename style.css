@@ -1,8 +1,13 @@
 @font-face {
-    font-family: 'typewriter';
-    src: url('/assets/fonts/momt___-webfont.woff2') format('woff2'),
-         url('/assets/fonts/momt___-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'typewriter';
+  src: url('/assets/fonts/momt___-webfont.woff2') format('woff2'),
+    url('/assets/fonts/momt___-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
+:root {
+  --accent-color: #596d48;
+  --border-color: #e5e7eb;
+  --outline-color: cornflowerblue;
 }
