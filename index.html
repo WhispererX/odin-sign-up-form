@@ -33,46 +33,43 @@
       </div>
 
       <form action="#" method="post">
-        <legend>Let's do this!</legend>
-
-        <div class="input-row">
-          <label for="first-name">
-            First name
-            <input type="text" id="first-name" name="first-name" minlength="3" />
-          </label>
-
-          <label for="last-name">
-            Last name
-            <input type="text" id="last-name" name="last-name" minlength="3" />
-          </label>
+        <div class="form-elements">
+            <legend>Let's do this!</legend>
+            <div class="input-row">
+              <label for="first-name">
+                First name *
+                <input type="text" id="first-name" name="first-name" minlength="3" required />
+              </label>
+              <label for="last-name">
+                Last name *
+                <input type="text" id="last-name" name="last-name" minlength="3" required />
+              </label>
+            </div>
+            <div class="input-row">
+              <label for="email">
+                Email *
+                <input type="email" id="email" name="email" required/>
+              </label>
+              <label for="phone">
+                Phone number
+                <input type="tel" id="phone" name="phone" />
+              </label>
+            </div>
+            <div class="input-row">
+              <label for="password">
+                Password *
+                <input type="password" name="password" id="password" minlength="6" required/>
+              </label>
+              <label for="confirm">
+                Confirm Password *
+                <input type="password" name="confirm" id="confirm" minlength="6" required>
+              </label>
+            </div>
         </div>
-
-        <div class="input-row">
-          <label for="email">
-            Email
-            <input type="email" id="email" name="email" />
-          </label>
-
-          <label for="phone">
-            Phone number
-            <input type="tel" id="phone" name="phone" />
-          </label>
-        </div>
-
-        <div class="input-row">
-          <label for="password">
-            Password
-            <input type="password" name="password" id="password" minlength="6" />
-          </label>
-
-          <label for="confirm">
-            Confirm Password 
-            <input type="password" name="confirm" id="confirm" minlength="6">
-          </label>
-        </div>
+        <button type="submit">Create Account</button>
       </form>
 
-      <button>Create Account</button>
+      <!-- <button type="submit">Create Account</button> -->
       <p class="login">Already have an account? <a href="#">Log in</a></p>
     </main>
   </body>
